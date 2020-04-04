@@ -8,6 +8,7 @@ PaqueteDatagrama::PaqueteDatagrama(char* _datos, unsigned int _longitud, char* _
     memcpy(datos,_datos, _longitud);
     memcpy(ip, _ip, 16);
     puerto = _puerto;
+    
 }
 
 PaqueteDatagrama::PaqueteDatagrama(unsigned int _longitud) {

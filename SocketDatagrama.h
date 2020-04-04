@@ -13,6 +13,7 @@ class SocketDatagrama {
 public:
     SocketDatagrama(int);
 
+
     ~SocketDatagrama();
 
 //Recibe un paquete tipo datagrama proveniente de este socket

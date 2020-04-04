@@ -12,5 +12,6 @@ public:
 private:
   SocketDatagrama *socketlocal;
 
+
 };
 #endif

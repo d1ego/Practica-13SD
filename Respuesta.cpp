@@ -10,6 +10,7 @@ Respuesta::Respuesta(int pl) {
     socketlocal = new SocketDatagrama(pl);
 }
 
+
 struct mensaje *Respuesta::getRequest(void) {
     int recibido = socketlocal->recibe(p);
     if (recibido == -1) {

@@ -9,6 +9,7 @@ Solicitud::Solicitud() {
 }
 
 
+
 char *
 Solicitud::doOperation(char *IP, int puerto, int operationId, char *arguments) {//Usuario cliente (puerto variable)
     int enviado, recibido;

@@ -11,6 +11,7 @@ int main() {
     int respuesta[2];
     struct mensaje *msg;
 
+
     while (1) {
         cout << "Esperando Respuesta:" << endl;
         msg = resp.getRequest();

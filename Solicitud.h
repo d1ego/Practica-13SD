@@ -10,5 +10,6 @@ public:
    char * doOperation(char *, int , int , char *);
 private:
   SocketDatagrama *socketlocal;
+  
 };
 #endif

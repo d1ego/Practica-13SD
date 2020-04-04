@@ -13,6 +13,7 @@ public:
   void inicializaPuerto(int);
   void inicializaIp(char *);
   void inicializaDatos(char *);
+  
 private:
   char *datos;
   char ip[16];

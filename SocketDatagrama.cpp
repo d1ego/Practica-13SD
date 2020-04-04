@@ -12,6 +12,7 @@
 #include <unistd.h>
 #include <iostream>
 
+
 using namespace std;
 
 SocketDatagrama::SocketDatagrama(int _puerto) {
@@ -72,5 +73,3 @@ int SocketDatagrama::recibeTimeout(PaqueteDatagrama &p, time_t segundos, susecon
 
 
 }
-
-
