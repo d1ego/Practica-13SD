@@ -10,6 +10,7 @@ int main(int argc, char *argv[]) {
     int contador = 0;
     int total = 0;
 
+
     int n = atoi(argv[2]);
     Solicitud solicitud;
 
