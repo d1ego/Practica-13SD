@@ -12,8 +12,8 @@ Solicitud::Solicitud() {
 char *
 Solicitud::doOperation(char *IP, int puerto, int operationId, char *arguments) {//Usuario cliente (puerto variable)
     int enviado, recibido;
-    cout << "doOperation" << endl;
-    cout << arguments[0] << endl;
+    //cout << "doOperation" << endl;
+    //cout << arguments[0] << endl;
 
     struct mensaje msg;
     msg.messageType = 0;
