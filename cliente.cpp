@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
   int contador = 0;
   int n = atoi(argv[2]);
   int transaccion;
-  while (contador<10) {
+  while (contador<n) {
 	int num= 1 + rand() % 9;;
 
   transaccion=num;
